@@ -1,0 +1,66 @@
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+  margin: 20px;
+}
+
+.container {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.container button {
+  margin: 10px;
+  vertical-align: top;
+}
+
+.previous {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.quote-container {
+  display: inline-block;
+  max-width: 80%;
+}
+
+.quote-container p {
+  padding: 7px;
+}
+
+.quote-container .editable p {
+  border: 1px solid #999999;
+}
+
+.quote-container div {
+  display: inline-block;
+}
+
+.custom-container{
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.info {
+  color: #999999;
+}
